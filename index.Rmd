@@ -19,13 +19,16 @@ This stark disparity highlights the racial inequalities present within the U.S. 
 ### The Dataset
 
 Who collected the data?  
+
 The data was collected by Vera institute, n independent nonprofit national research and policy organization in the United States, and a leader in criminal justice research.
 
 How was the data collected or generated?  
+
 The dataset was collected from various sources including governmental agencies, correctional facilities, and public records. In most cases, the information is gathered by asking for public records, polls, and direct reports from prisons.
 
 
 Why was the data collected?
+
 The data was collected to show US imprisonment trends. Policymakers, scholars, advocates, and the public should know the prison population's size and diversity, including ethnicity and gender. The knowledge helps individuals understand and address prison overcrowding, black injustice, and the criminal justice system's impact on various populations.
 
 
@@ -42,6 +45,7 @@ What, if any, ethical questions or questions of power do you need to consider wh
 Working with this data raises social difficulties. Protection of the dataset's subjects is the first priority. Keeping identities anonymous when collecting data is crucial. Prison data collection and usage include power balance. This data should be used by researchers and policymakers to create fair and reasonable policies, not ones that reinforce biases and wrongs. The data highlights structural issues like racial disparity and mass incarceration, which must be addressed respectfully to avoid shameing afflicted communities.
 
 What are possible limitations or problems with this data?   (at least 200 words)
+
 There's a chance that the data is inaccurate in several distinct ways. It is likely that the data is incomplete or inaccurate because it comes from correctional facilities like prisons. This is due to the fact that these businesses usually do not guarantee the accuracy and completeness of their findings. Furthermore, it's probable that some details regarding the trends in incarceration, such as the conditions of confinement or the experiences of the prisoners, are not fully disclosed by the data. Furthermore, because the criminal justice system was created and carried out in a particular manner, there is the issue of biases within it that could be shown in the data. Due to differences in the frequency of their arrests and the length of their incarceration, there are situations when specific racial groups are disproportionately represented in prisons. The last issue is that the data may not be up to date or may not reflect current trends. It is therefore less helpful for making decisions and carrying out research instantly. Although the dataset has certain shortcomings, it nonetheless gives us important information about the number of people and the types of persons that are incarcerated in the US, as well as the areas where changes and improvements are needed.
 
 

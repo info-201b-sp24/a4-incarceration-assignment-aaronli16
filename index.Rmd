@@ -1,71 +1,69 @@
 ---
-title: "A3: Incarceration"
+title: "A5: Incarceration"
 output: html_document
 ---
 
 ### Introduction
 
-An introduction of the problem domain and a description of the variable(s) you are choosing to analyze (and why!)
+The United States has the highest prison rate in the world, and people of colour, especially Black Americans, are affected more than white people. Using data from the Vera Institute, I will look at the trends in incarceration in the U.S. in this study. The factors I will be looking at are the total number of people in prison , the rate of incarceration per 100,000 people, and the breakdowns by race and gender. These factors are very important for figuring out how big and what kind of differences there are in imprisonment.
 
 ### Summary Information
 
-Write a summary paragraph of findings that includes the 5 values calculated from your summary information R script
 
-These will likely be calculated using your DPLYR skills, answering questions such as: 
 
-- What is the average value of my variable across all the counties (in the current year)?
-- Where is my variable the highest / lowest?
-- How much has my variable change over the last N years?
-
-Feel free to calculate and report values that you find relevant. Again, remember that the purpose is to think about how these measure of incarceration vary by race.
+In the latest year of the dataset, the total prison population across the United States was found to be 327,167,434. On average, each county had a prison population of approximately  104226.6 individuals. 
+The state with the highest prison population was California, which reported a total of 66,000 incarcerated individuals. Over the past ten years, the total prison population in the U.S. has decreased by 23079618 in the last ten years.
+Notably, Black individuals make up a significant portion of the incarcerated population, with 8.813401% of the Black population aged 15 to 64 being incarcerated. 
+This stark disparity highlights the racial inequalities present within the U.S. incarceration system, emphasizing the need for targeted policies and reforms to address these systemic issues.
 
 ### The Dataset
 
 Who collected the data?  
+The data was collected by Vera institute, n independent nonprofit national research and policy organization in the United States, and a leader in criminal justice research.
+
 How was the data collected or generated?  
-Why was the data collected?  
+The dataset was collected from various sources including governmental agencies, correctional facilities, and public records. In most cases, the information is gathered by asking for public records, polls, and direct reports from prisons.
+
+
+Why was the data collected?
+The data was collected to show US imprisonment trends. Policymakers, scholars, advocates, and the public should know the prison population's size and diversity, including ethnicity and gender. The knowledge helps individuals understand and address prison overcrowding, black injustice, and the criminal justice system's impact on various populations.
+
+
 How many observations (rows) are in your data?  
+
+There are 153811 rows in my data.
+
 How many features (columns) are in the data?  
-What, if any, ethical questions or questions of power do you need to consider when working with this data?  
+
+There are 36 features in my data.
+
+What, if any, ethical questions or questions of power do you need to consider when working with this data?
+Working with this data raises social difficulties. Protection of the dataset's subjects is the first priority. Keeping identities anonymous when collecting data is crucial. Prison data collection and usage include power balance. This data should be used by researchers and policymakers to create fair and reasonable policies, not ones that reinforce biases and wrongs. The data highlights structural issues like racial disparity and mass incarceration, which must be addressed respectfully to avoid shameing afflicted communities.
+
 What are possible limitations or problems with this data?   (at least 200 words)
+There's a chance that the data is inaccurate in several distinct ways. It is likely that the data is incomplete or inaccurate because it comes from correctional facilities like prisons. This is due to the fact that these businesses usually do not guarantee the accuracy and completeness of their findings. Furthermore, it's probable that some details regarding the trends in incarceration, such as the conditions of confinement or the experiences of the prisoners, are not fully disclosed by the data. Furthermore, because the criminal justice system was created and carried out in a particular manner, there is the issue of biases within it that could be shown in the data. Due to differences in the frequency of their arrests and the length of their incarceration, there are situations when specific racial groups are disproportionately represented in prisons. The last issue is that the data may not be up to date or may not reflect current trends. It is therefore less helpful for making decisions and carrying out research instantly. Although the dataset has certain shortcomings, it nonetheless gives us important information about the number of people and the types of persons that are incarcerated in the US, as well as the areas where changes and improvements are needed.
 
 
 ### Trends Over Time Chart
 
-Include a chart. Make sure to describe why you included the chart, and what patterns emerged
+I created a chart showing the entire prison population trend for the five states with the greatest prison populations to better understand how incarceration rates have changed. This focus on huge effects lets us compare states and demonstrate how well state policies and adjustments operate. These patterns can help us identify major changes and improve solutions. Due to its labelling and legend, politicians and academics can easily grasp the graphic. This map shows incarceration rates in key states and can help prevent racism and mass incarceration.
 
-The first chart that you will create and include will show the trend over time of your variable/topic. Think carefully about what you want to communicate to your user (you may have to find relevant trends in the dataset first!). Here are some requirements to help guide your design:
 
-- Show more than one, but fewer than ~10 trends
-  - This may mean showing the same measure for different locations or different racial groups. Think carefully about a meaningful comparison of locations (e.g., the top 10 counties in a state, top 10 states, etc.)
-- You must have clear x and y axis labels
-- The chart needs a clear title 
-- You need a legend for your different line colors and a clear legend title
-
-When we say "clear" or "human readable" titles and labels, that means that you should not just display the variable name.
-
-Here's an example of how to run an R script inside an RMarkdown file:
-
-``````{r, echo = FALSE, code = readLines("chart1_example.R")}
+ 
+```{r, echo = FALSE, message=FALSE, results = FALSE, warning=FALSE, code = readLines("chart1_example.R")}
 ```
 
 ### Variable Comparison Chart
 
-Include a chart. Make sure to describe why you included the chart, and what patterns emerged
 
-The second chart that you will create and include will show how two different (continuous) variables are related to one another. Again, think carefully about what such a comparison means and what you want to communicate to your user (you may have to find relevant trends in the dataset first!). Here are some requirements to help guide your design:
+This figure showed how the number of prisoners per 100,000 people and the total number of prisoners in each state relate. This comparison shows correlations between incarceration rates and prison populations. It also highlights state differences and outliers. Understanding this link is crucial to making policy decisions to reduce incarceration. The chart's clarity and similarities make it useful for understanding US imprisonment.
 
-- You must have clear x and y axis labels
-- The chart needs a clear title 
-- If you choose to add a color encoding (not required), you need a legend for your different color and a clear legend title
+```{r, echo = FALSE, message=FALSE, results = FALSE, warning=FALSE, code = readLines("chart2_example.R")}
+```
 
 ### Map
 
-Include a chart. Make sure to describe why you included the chart, and what patterns emerged
+I chose this map to show state prison populations. The map shows geographical differences, state comparisons, and high and low incarceration rates. State and municipal strategies to reduce incarceration and resolve criminal justice system regional inequalities must take into account these geographical tendencies.
 
-The last chart that you will create and include will show how a variable is distributed geographically. Again, think carefully about what such a comparison means and what you want to communicate to your user (you may have to find relevant trends in the dataset first!). Here are some requirements to help guide your design:
-
-- Your map needs a title
-- Your color scale needs a legend with a clear label
-- Use a map based coordinate system to set the aspect ratio of your map
-
+```{r, echo = FALSE, message=FALSE, results = FALSE, warning=FALSE, code = readLines("map_example.R")}
+```

@@ -42,6 +42,7 @@ There are 36 features in my data.
 
 What, if any, ethical questions or questions of power do you need to consider when working with this data?
 
+
 Working with this data raises social difficulties. Protection of the dataset's subjects is the first priority. Keeping identities anonymous when collecting data is crucial. Prison data collection and usage include power balance. This data should be used by researchers and policymakers to create fair and reasonable policies, not ones that reinforce biases and wrongs. The data highlights structural issues like racial disparity and mass incarceration, which must be addressed respectfully to avoid shameing afflicted communities.
 
 What are possible limitations or problems with this data?   (at least 200 words)
